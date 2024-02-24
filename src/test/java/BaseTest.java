@@ -15,8 +15,8 @@ public class BaseTest {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("appPackage", "");
-        capabilities.setCapability("appActivity", "");
+        capabilities.setCapability("appPackage", "tr.abdullah.notes");
+        capabilities.setCapability("appActivity", "tr.abdullah.notes.LoginActivity");
         capabilities.setCapability("platformName", "Android");
 
         appiumDriver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
