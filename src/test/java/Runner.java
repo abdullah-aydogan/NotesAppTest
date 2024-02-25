@@ -21,6 +21,21 @@ public class Runner extends BaseTest {
         methods.checkDateTime(Elements.dateTime);
         // -----------------------------------------------------------------
 
+        // Not Düzenleme Testi
+        // --------------------------------------------------------------------------
+        methods.clickElement(Elements.noteCard);
+        methods.checkPage(Elements.noteTitle, "Not detay");
+        methods.clickElement(Elements.editNoteButton);
+        methods.checkPage(Elements.editNoteText, "Not düzenleme");
+        methods.clickElement(Elements.editNoteTitle);
+        methods.enterText(Elements.editNoteTitle, "Düzenlenmiş Not Başlığı");
+        methods.clickElement(Elements.editNoteContent);
+        methods.enterText(Elements.editNoteContent, "Düzenlenmiş Not İçeriği");
+        methods.clickElement(Elements.saveEditingNoteBtn);
+        methods.checkPage(Elements.recyclerView, "Notlar listesi");
+        methods.checkDateTime(Elements.dateTime);
+        // --------------------------------------------------------------------------
+
 
     }
 }
