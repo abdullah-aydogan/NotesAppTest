@@ -19,6 +19,12 @@ public class BaseTest {
         capabilities.setCapability("appActivity", "tr.abdullah.notes.LoginActivity");
         capabilities.setCapability("platformName", "Android");
 
+        // Gerçek cihazda test koşmak için gerekli olan capabilityler
+        /*
+        * capabilities.setCapability("ignoreHiddenApiPolicyError", "true");
+        * capabilities.setCapability("noReset", "true");
+        */
+
         appiumDriver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
 
