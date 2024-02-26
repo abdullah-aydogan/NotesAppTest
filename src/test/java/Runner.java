@@ -36,6 +36,13 @@ public class Runner extends BaseTest {
         methods.checkDateTime(Elements.dateTime);
         // --------------------------------------------------------------------------
 
+        // Not Silme Testi
+        // ------------------------------------------------------------------
+        methods.longClickElement(Elements.noteCard);
+        methods.clickElement(Elements.deleteConfirmBtn);
+        methods.checkPage(Elements.recyclerView, "Notlar listesi");
+        // ------------------------------------------------------------------
+
 
     }
 }

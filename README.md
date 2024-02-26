@@ -40,3 +40,13 @@ Proje geliştirilmeye devam etmektedir.
 * Sağ üstte yer alan yeşil renkli not kaydetme butonuna tıkla.
 * Notlar listesi ekranına geri dönüldüğünü kontrol et.
 * Düzenlenen notun sağ üstünde yer alan tarih bilgisini, bugünün tarih bilgisiyle eşleşiyor mu diye kontrol et.
+
+<br>
+
+### Not Silme
+
+[26 Şubat 2024 - Pazartesi]
+
+* Notlar listesinde yer alan not kartına uzun tıkla (basılı tut).
+* Açılan diyalog penceresinden "Sil" butonuna tıkla.
+* Notlar listesi ekranına geri dönüldüğünü kontrol et.

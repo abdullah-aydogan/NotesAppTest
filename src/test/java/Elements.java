@@ -20,5 +20,5 @@ public class Elements {
     static By saveEditingNoteBtn = By.id("tr.abdullah.notes:id/updateSaveButton");
 
 
-
+    static By deleteConfirmBtn = By.id("android:id/button1");
 }

@@ -1,5 +1,9 @@
+import io.appium.java_client.android.AndroidTouchAction;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.ElementOption;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -31,6 +35,17 @@ public class Methods extends BaseTest {
         checkElement(locator);
         appiumDriver.findElement(locator).click();
         logger.info("Bulunan elemente tıklandı.");
+    }
+
+    public void longClickElement(By locator) {
+
+        checkElement(locator);
+        AndroidTouchAction touchAction = new AndroidTouchAction(appiumDriver);
+        WebElement element = appiumDriver.findElement(locator);
+
+        touchAction.longPress(LongPressOptions.longPressOptions()
+            .withElement(ElementOption.element(element)))
+            .perform();
     }
 
     public void checkPage(By locator, String pageName) {
