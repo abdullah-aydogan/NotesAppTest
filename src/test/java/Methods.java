@@ -34,6 +34,7 @@ public class Methods extends BaseTest {
 
         checkElement(locator);
         appiumDriver.findElement(locator).click();
+        appiumDriver.hideKeyboard();
         logger.info("Bulunan elemente tıklandı.");
     }
 
