@@ -21,4 +21,9 @@ public class Elements {
 
 
     static By deleteConfirmBtn = By.id("android:id/button1");
+
+
+    static By moreBtn = By.id("tr.abdullah.notes:id/moreButton");
+    static By setLanguage = By.xpath("(//android.widget.LinearLayout[@resource-id=\"tr.abdullah.notes:id/content\"])[2]");
+    static By englishLanguage = By.xpath("//android.widget.CheckedTextView[@resource-id=\"android:id/text1\" and @text=\"English\"]");
 }

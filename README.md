@@ -50,3 +50,13 @@ Proje geliştirilmeye devam etmektedir.
 * Notlar listesinde yer alan not kartına uzun tıkla (basılı tut).
 * Açılan diyalog penceresinden "Sil" butonuna tıkla.
 * Notlar listesi ekranına geri dönüldüğünü kontrol et.
+
+<br>
+
+### Uygulama Dil Seçeneğini Değiştirme
+
+[27 Şubat 2024 - Salı]
+
+* Uygulamanın sağ üst tarafındaki mavi renkli üç noktalı butona tıkla.
+* Açılan seçeneklerden "Dil Ayarla" seçeneğine tıkla.
+* Açılan diller listesinden "English" dilini seç.

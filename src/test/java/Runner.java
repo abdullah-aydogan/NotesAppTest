@@ -39,6 +39,13 @@ public class Runner extends BaseTest {
         methods.checkDateTime(Elements.dateTime);
         // --------------------------------------------------------------------------
 
+        // Uygulama Dil Seçeneğini Değiştirme Testi
+        // --------------------------------------------
+        methods.clickElement(Elements.moreBtn);
+        methods.clickElement(Elements.setLanguage);
+        methods.clickElement(Elements.englishLanguage);
+        // --------------------------------------------
+
         // Not Silme Testi
         // ------------------------------------------------------------------
         methods.longClickElement(Elements.noteCard);
