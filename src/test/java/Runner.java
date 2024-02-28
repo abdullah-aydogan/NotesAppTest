@@ -53,6 +53,10 @@ public class Runner extends BaseTest {
         methods.checkPage(Elements.recyclerView, "Notlar listesi");
         // ------------------------------------------------------------------
 
-
+        // Not Arama Testi
+        // ----------------------------------------------------
+        methods.clickElement(Elements.searchBtn);
+        methods.enterText(Elements.searchText, "1. Not");
+        // ----------------------------------------------------
     }
 }

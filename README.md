@@ -60,3 +60,12 @@ Proje geliştirilmeye devam etmektedir.
 * Uygulamanın sağ üst tarafındaki mavi renkli üç noktalı butona tıkla.
 * Açılan seçeneklerden "Dil Ayarla" seçeneğine tıkla.
 * Açılan diller listesinden "English" dilini seç.
+
+<br>
+
+### Not Arama
+
+[28 Şubat 2024 - Çarşamba]
+
+* Uygulamanın sol üst tarafındaki büyüteç işaretine tıkla.
+* "Not Ara" isimli EditText alanına "1. Not" içeriğini gir.

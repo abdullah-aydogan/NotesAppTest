@@ -26,4 +26,8 @@ public class Elements {
     static By moreBtn = By.id("tr.abdullah.notes:id/moreButton");
     static By setLanguage = By.xpath("(//android.widget.LinearLayout[@resource-id=\"tr.abdullah.notes:id/content\"])[2]");
     static By englishLanguage = By.xpath("//android.widget.CheckedTextView[@resource-id=\"android:id/text1\" and @text=\"English\"]");
+
+
+    static By searchBtn = By.id("android:id/search_button");
+    static By searchText = By.id("android:id/search_src_text");
 }
